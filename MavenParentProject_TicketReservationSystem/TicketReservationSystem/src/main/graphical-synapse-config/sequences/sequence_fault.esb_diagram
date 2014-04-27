@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_soLEoM3GEeOS-tGX-tmt6g" type="Esb" name="sequence_fault.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_sotQIM3GEeOS-tGX-tmt6g" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sotQJc3GEeOS-tGX-tmt6g" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_v_K1oM3GEeOS-tGX-tmt6g" type="3614">
+        <children xmi:type="notation:Node" xmi:id="_v_MDwM3GEeOS-tGX-tmt6g" type="3615">
+          <children xmi:type="notation:DecorationNode" xmi:id="_v_MDxc3GEeOS-tGX-tmt6g" type="7035">
+            <children xmi:type="notation:Node" xmi:id="_v_ha8M3GEeOS-tGX-tmt6g" type="3495">
+              <children xmi:type="notation:DecorationNode" xmi:id="_v_iCAM3GEeOS-tGX-tmt6g" type="5168"/>
+              <children xmi:type="notation:Node" xmi:id="_v_m6gM3GEeOS-tGX-tmt6g" type="3018">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_m6gc3GEeOS-tGX-tmt6g"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_v_m6gs3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_v_m6g83GEeOS-tGX-tmt6g"/>
+                <element xmi:type="esb:LogMediatorInputConnector" href="sequence_fault.esb#//@server/@children.0/@mediatorFlow/@children.0/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_m6hM3GEeOS-tGX-tmt6g" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_v_m6hc3GEeOS-tGX-tmt6g" type="3019">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_nhkM3GEeOS-tGX-tmt6g"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_v_nhkc3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_v_nhks3GEeOS-tGX-tmt6g"/>
+                <element xmi:type="esb:LogMediatorOutputConnector" href="sequence_fault.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_nhk83GEeOS-tGX-tmt6g" x="-11" y="-9"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_ha8c3GEeOS-tGX-tmt6g"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_v_ha8s3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_v_ha883GEeOS-tGX-tmt6g"/>
+              <element xmi:type="esb:LogMediator" href="sequence_fault.esb#//@server/@children.0/@mediatorFlow/@children.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_ha9M3GEeOS-tGX-tmt6g" x="25" y="109" width="77" height="75"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_v_x5oM3GEeOS-tGX-tmt6g" type="3491">
+              <children xmi:type="notation:DecorationNode" xmi:id="_v_x5pc3GEeOS-tGX-tmt6g" type="5166"/>
+              <children xmi:type="notation:Node" xmi:id="_wADmcM3GEeOS-tGX-tmt6g" type="3008">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_wADmcc3GEeOS-tGX-tmt6g"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_wADmcs3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_wADmc83GEeOS-tGX-tmt6g"/>
+                <element xmi:type="esb:DropMediatorInputConnector" href="sequence_fault.esb#//@server/@children.0/@mediatorFlow/@children.1/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wADmdM3GEeOS-tGX-tmt6g"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_x5oc3GEeOS-tGX-tmt6g"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_v_x5os3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_v_x5o83GEeOS-tGX-tmt6g"/>
+              <element xmi:type="esb:DropMediator" href="sequence_fault.esb#//@server/@children.0/@mediatorFlow/@children.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_x5pM3GEeOS-tGX-tmt6g" x="142" y="109" width="77" height="75"/>
+            </children>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_v_MDxs3GEeOS-tGX-tmt6g" showTitle="true"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_MDwc3GEeOS-tGX-tmt6g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v_MDws3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_v_MDw83GEeOS-tGX-tmt6g"/>
+          <element xmi:type="esb:MediatorFlow" href="sequence_fault.esb#//@server/@children.0/@mediatorFlow"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_MDxM3GEeOS-tGX-tmt6g"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v_MDx83GEeOS-tGX-tmt6g" type="3616">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_Mq0M3GEeOS-tGX-tmt6g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v_Mq0c3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_v_Mq0s3GEeOS-tGX-tmt6g"/>
+          <element xmi:type="esb:SequencesInputConnector" href="sequence_fault.esb#//@server/@children.0/@inputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_Mq083GEeOS-tGX-tmt6g" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v_Mq1M3GEeOS-tGX-tmt6g" type="3617">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_Mq1c3GEeOS-tGX-tmt6g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v_Mq1s3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_v_Mq183GEeOS-tGX-tmt6g"/>
+          <element xmi:type="esb:SequencesOutputConnector" href="sequence_fault.esb#//@server/@children.0/@outputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_Mq2M3GEeOS-tGX-tmt6g" x="-11" y="-9"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_v_K1oc3GEeOS-tGX-tmt6g"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_v_K1os3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_v_K1o83GEeOS-tGX-tmt6g"/>
+        <element xmi:type="esb:Sequences" href="sequence_fault.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_K1pM3GEeOS-tGX-tmt6g" width="195" height="125"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_sotQIc3GEeOS-tGX-tmt6g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sotQIs3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_sotQI83GEeOS-tGX-tmt6g"/>
+    <element xmi:type="esb:EsbServer" href="sequence_fault.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sotQJM3GEeOS-tGX-tmt6g"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_soLEoc3GEeOS-tGX-tmt6g"/>
+  <element xmi:type="esb:EsbDiagram" href="sequence_fault.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_wCRM8M3GEeOS-tGX-tmt6g" type="4001" source="_v_Mq1M3GEeOS-tGX-tmt6g" target="_v_m6gM3GEeOS-tGX-tmt6g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wCRM8c3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fault.esb#//@server/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wCRM8s3GEeOS-tGX-tmt6g" points="[6, 9, 0, -17]$[0, 21, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wCWsgM3GEeOS-tGX-tmt6g" type="4001" source="_v_m6hc3GEeOS-tGX-tmt6g" target="_wADmcM3GEeOS-tGX-tmt6g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wCWsgc3GEeOS-tGX-tmt6g" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fault.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wCWsgs3GEeOS-tGX-tmt6g" points="[1, 9, 0, 4]$[0, 0, -1, -5]"/>
+  </edges>
+</notation:Diagram>
