@@ -48,6 +48,7 @@
     <log level="custom" separator=",">
         <property name="MessageFlow" value="======================= Sending Request To BookingService======================="/>
     </log>
+    <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
     <log level="full" separator=","/>
     <send>
         <endpoint key="BookingServiceEP"/>
